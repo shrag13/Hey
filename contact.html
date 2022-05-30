@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a class="contact-active" href="contact.html">Contact</a>
+      <a class="about-active" href="about.html">About</a>
+      <button class="dark-mode-button" onclick="myFunction()">
+        Toggle dark mode
+      </button>
+    </div>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        border-radius: 25px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bolder;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+    <style>
+      .dark-mode-button {
+        float: left;
+        background-color: #333;
+        border-radius: 25px;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 22px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+      }
+      .dark-mode {
+        background-color: rgb(11, 24, 68);
+        color: white;
+      }
+      .dark-mode-button:hover {
+        box-shadow: 0 25px 16px 0 rgba(255, 255, 255, 0.24),
+          0 17px 50px 0 rgba(255, 255, 255, 0.19);
+      }
+      body {
+        padding: 25px;
+        background-color: #1c87c9;
+        color: black;
+      }
+      .topnav a:hover {
+        background-color: #c4ffe9;
+        color: black;
+      }
+      .topnav a.home-active {
+        background-color: #333;
+        color: white;
+      }
+      .topnav a.contact-active {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .topnav {
+        background-color: #333;
+        border-radius: 25px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <style>
+      h1 {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+    </style>
+    <h1>Welcome you can contact us here</h1>
+  </body>
+</html>

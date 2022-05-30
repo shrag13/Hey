@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div class="topnav">
+      <a class="home-active" href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <button class="dark-mode-button" onclick="myFunction()">
+        Toggle dark mode
+      </button>
+    </div>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="shragie" />
+    <title>Document</title>
+
+    <div>
+      <style>
+        .dark-mode-button {
+          float: left;
+          background-color: #333;
+          border-radius: 25px;
+          text-align: center;
+          padding: 14px 16px;
+          font-size: 22px;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+          color: white;
+          font-weight: bolder;
+          text-decoration: none;
+          border: none;
+          display: inline-block;
+          -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+        }
+        .dark-mode-button:hover {
+          box-shadow: 0 25px 16px 0 rgba(255, 255, 255, 0.24),
+            0 17px 50px 0 rgba(255, 255, 255, 0.19);
+        }
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          border-radius: 25px;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 22px;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+      </style>
+      <style>
+        .topnav a:hover {
+          background-color: #c4ffe9;
+          color: black;
+        }
+        .topnav a.home-active {
+          background-color: #04aa6d;
+          color: white;
+        }
+        .topnav {
+          background-color: #333;
+          border-radius: 25px;
+          overflow: hidden;
+        }
+        body {
+          padding: 25px;
+          background-color: #1c87c9;
+          color: black;
+        }
+        .dark-mode {
+          background-color: rgb(11, 24, 68);
+          color: white;
+        }
+        body {
+          padding: 25px;
+          background-color: #1c87c9;
+          color: black;
+        }
+      </style>
+
+      <style>
+        img {
+          padding: 0;
+          margin: 0;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 36px;
+          width: 1200px;
+          height: 500px;
+          object-fit: cover;
+          display: flex;
+        }
+      </style>
+    </div>
+    <style>
+      em {
+        color: red;
+        font-style: normal;
+      }
+    </style>
+    <style>
+      h2 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+    </style>
+    <style>
+      p {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+
+    <style>
+      a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: 900;
+        color: greenyellow;
+      }
+    </style>
+    <style>
+      .username {
+        border-radius: 25px;
+        border: 2px solid rgba(13, 153, 0, 0.555);
+        padding: 20px;
+        width: 200px;
+        height: 1px;
+      }
+    </style>
+    <style>
+      .email {
+        border-radius: 25px;
+        border: 2px solid rgba(13, 153, 0, 0.555);
+        padding: 20px;
+        width: 200px;
+        height: 1px;
+      }
+    </style>
+    <style>
+      .username-text {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+    </style>
+    <style>
+      .email-text {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+    </style>
+    <br />
+    <img src="images/minimal-wallpaper.jpg".jpg" alt="A coffee mug on the table"
+    />
+    <br />
+    <center>
+      <a href="images/" download>Download my photo</a>
+    </center>
+    <div>
+      <center>
+        <h3 class="username-text">username</h3>
+        <input
+          class="username"
+          autofocus
+          maxlength="30"
+          minlength="6"
+          name="user"
+          id="user"
+          type="text"
+        />
+        <h3 class="email-text">email</h3>
+        <label for="email"></label>
+        <input class="email" name="email" type="email" />
+      </center>
+    </div>
+  </body>
+</html>
